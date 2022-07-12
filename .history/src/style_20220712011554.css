@@ -1,0 +1,10 @@
+.spin {
+    animation: spin 1s forwards;
+
+}
+
+@keyframes spin {
+    0% { transform: scale(1) rotate(0); border-radius: 20%; }
+    50% { transform: scale(1.2) rotate(180deg); border-radius: 500%; }
+    100% { transform: scale(1) rotate(); border-radius: 20%; }
+}
