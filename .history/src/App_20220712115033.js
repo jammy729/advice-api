@@ -60,7 +60,6 @@ const App = () => {
       placeItems={'center center'}
       height='100vh'
       width='100vw'
-      bg='neutral.300'
     >
       <Box
         w={['90%', '80%', '60%', null, '45%']}
